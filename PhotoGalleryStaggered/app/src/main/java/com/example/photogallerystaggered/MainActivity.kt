@@ -1,3 +1,5 @@
+package com.example.photogallerystaggered
+
 import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -36,7 +38,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import org.xmlpull.v1.XmlPullParser
-import com.example.photogallerystaggered.R
 
 /**
  * The main activity of the Staggered Photo Gallery app.
