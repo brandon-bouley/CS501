@@ -25,7 +25,6 @@ import org.xmlpull.v1.XmlPullParser
 import com.example.flashcardquiz.ui.theme.FlashcardQuizTheme
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalConfiguration
-import kotlin.io.path.name
 
 /**
  * The main activity for the Flashcard Quiz application.
