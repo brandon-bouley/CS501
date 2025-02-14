@@ -1,0 +1,32 @@
+<flashcards>
+    <card
+        question="What is the capital of France?"
+        answer="Paris" />
+    <card
+        question="What is 2 + 2?"
+        answer="4" />
+    <card
+        question="Who wrote 'Romeo and Juliet'?"
+        answer="William Shakespeare" />
+    <card
+        question="What is the largest planet in the solar system?"
+        answer="Jupiter" />
+    <card
+        question="What is the chemical symbol for water?"
+        answer="H2O" />
+    <card
+        question="What year did the United States declare independence?"
+        answer="1776" />
+    <card
+        question="Who painted the Mona Lisa?"
+        answer="Leonardo da Vinci" />
+    <card
+        question="What is the smallest prime number?"
+        answer="2" />
+    <card
+        question="How many continents are there on Earth?"
+        answer="7" />
+    <card
+        question="What is the speed of light in a vacuum?"
+        answer="299,792,458 meters per second" />
+</flashcards>
