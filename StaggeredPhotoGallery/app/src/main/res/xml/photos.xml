@@ -1,0 +1,21 @@
+
+<photos>
+    <photo
+        fileName="img1"
+        title="Alley" />
+    <photo
+        fileName="img2"
+        title="Friends" />
+    <photo
+        fileName="img3"
+        title="His and Hers" />
+    <photo
+        fileName="img4"
+        title="Stand-up" />
+    <photo
+        fileName="img5"
+        title="Alley II" />
+    <photo
+        fileName="img6"
+        title="Friendsgiving" />
+</photos>
