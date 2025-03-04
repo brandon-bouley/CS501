@@ -173,7 +173,7 @@ class MainActivity : ComponentActivity() {
         }
 
         val db = 20.0 * log10(rms / 32767.0) // Convert RMS to decibels
-        val normalizedDb = (db + 50 - baselineNoise).coerceAtLeast(0.0) // Normalize and clamp to 0
+        val normalizedDb = (db + 20 + baselineNoise).coerceAtLeast(0.0) // Normalize and clamp to 0
 
         decibel = normalizedDb.toFloat()
         isLoud = decibel > DANGER_THRESHOLD // Check if sound exceeds the danger threshold
