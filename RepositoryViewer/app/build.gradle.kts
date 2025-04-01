@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recipesearchapp"
+    namespace = "com.example.repositoryviewer"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.recipesearchapp"
+        applicationId = "com.example.repositoryviewer"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -41,27 +41,15 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.ui)
-    implementation(libs.ui.graphics)
-    implementation(libs.ui.tooling.preview)
-    implementation(libs.material3)
+
     implementation(libs.androidx.lifecycle.viewmodel.compose)
-
-
     implementation(libs.retrofit)
     implementation(libs.converter.moshi)
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
-
-
     implementation(libs.moshi.kotlin)
-
-
     implementation(libs.coil.compose)
+    implementation(libs.androidx.paging.compose)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
