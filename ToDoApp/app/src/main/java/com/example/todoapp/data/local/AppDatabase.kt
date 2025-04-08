@@ -21,7 +21,7 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "todo_database"
                 )
-                    .fallbackToDestructiveMigration() // Optional: handles DB version changes
+                    .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
                 instance
